@@ -4,15 +4,14 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme"
         android:hardwareAccelerated="false"
+        android:icon="@mipmap/icon2"
+        android:label="@string/app_name"
         android:largeHeap="true"
-        >
-        <activity android:name=".EventsActivityDance" >
+        android:roundIcon="@mipmap/icon1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EventsActivityDance">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,13 +22,40 @@
         <activity android:name=".EventsActivityAutomobile" />
         <activity android:name=".EventsActivityFashion" />
         <activity android:name=".EventsActivityGaming" />
-        <activity android:name=".EventsActivityInformals"></activity>
-        <activity android:name=".EventsActivityLiterary">
-
-        </activity>
-        <activity android:name=".EventsActivityTheatre">
-
-        </activity>
+        <activity android:name=".EventsActivityInformals" />
+        <activity android:name=".EventsActivityLiterary" />
+        <activity android:name=".EventsActivityTheatre" />
+        <activity android:name=".SubEvents.Afsaana" />
+        <activity android:name=".SubEvents.AimBot" />
+        <activity android:name=".SubEvents.Alfaaz" />
+        <activity android:name=".SubEvents.Avalanche" />
+        <activity android:name=".SubEvents.Brahmastra" />
+        <activity android:name=".SubEvents.EveningBall" />
+        <activity android:name=".SubEvents.Oorja" />
+        <activity android:name=".SubEvents.FakeOff" />
+        <activity android:name=".SubEvents.Harmony" />
+        <activity android:name=".SubEvents.Kalakriti" />
+        <activity android:name=".SubEvents.Kaleidoscope" />
+        <activity android:name=".SubEvents.Khayaal" />
+        <activity android:name=".SubEvents.Kismat" />
+        <activity android:name=".SubEvents.Melody" />
+        <activity android:name=".SubEvents.Motorsport" />
+        <activity android:name=".SubEvents.MrMoksha" />
+        <activity android:name=".SubEvents.Mudra" />
+        <activity android:name=".SubEvents.Nishad" />
+        <activity android:name=".SubEvents.OpenMic" />
+        <activity android:name=".SubEvents.Paint" />
+        <activity android:name=".SubEvents.Parwaaz" />
+        <activity android:name=".SubEvents.Querencia" />
+        <activity android:name=".SubEvents.Rogue" />
+        <activity android:name=".SubEvents.Soch" />
+        <activity android:name=".SubEvents.Stepup" />
+        <activity android:name=".SubEvents.Symphony" />
+        <activity android:name=".SubEvents.Talent" />
+        <activity android:name=".SubEvents.Tarang" />
+        <activity android:name=".SubEvents.Verbum" />
+        <activity android:name=".SubEvents.Voice" />
+        <activity android:name=".SubEvents.Zephyr"></activity>
     </application>
 
 </manifest>

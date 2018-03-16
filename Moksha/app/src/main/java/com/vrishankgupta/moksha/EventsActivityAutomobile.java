@@ -1,17 +1,16 @@
 package com.vrishankgupta.moksha;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.transition.Fade;
-import android.transition.Slide;
-import android.transition.TransitionInflater;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.vrishankgupta.moksha.SubEvents.Motorsport;
+
 public class EventsActivityAutomobile extends AppCompatActivity {
 
-    ImageView front_arrow,back_arrow;
+    ImageView front_arrow,back_arrow,motorsport;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +18,7 @@ public class EventsActivityAutomobile extends AppCompatActivity {
         setContentView(R.layout.activity_events_automobile);
         front_arrow = findViewById(R.id.front_arrow);
         back_arrow = findViewById(R.id.back_arrow);
+        motorsport = findViewById(R.id.motorsport);
 
         front_arrow.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +34,14 @@ public class EventsActivityAutomobile extends AppCompatActivity {
                 
                 startActivity(new Intent(getApplicationContext(),EventsActivityFashion.class));
                 finish();
+            }
+        });
+
+        motorsport.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), Motorsport.class));
+
             }
         });
 

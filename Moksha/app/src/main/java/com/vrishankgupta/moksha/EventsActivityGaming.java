@@ -13,25 +13,25 @@ public class EventsActivityGaming extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_events_gaming);
+        setContentView(R.layout.sponsors);
 
-        front_arrow = findViewById(R.id.front_arrow);
-        back_arrow = findViewById(R.id.back_arrow);
-
-        front_arrow.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),EventsActivityInformals.class));
-                finish();
-            }
-        });
-
-        back_arrow.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),EventsActivityAutomobile.class));
-                finish();
-            }
-        });
+//        front_arrow = findViewById(R.id.front_arrow);
+//        back_arrow = findViewById(R.id.back_arrow);
+//
+//        front_arrow.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity(new Intent(getApplicationContext(),EventsActivityInformals.class));
+//                finish();
+//            }
+//        });
+//
+//        back_arrow.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity(new Intent(getApplicationContext(),EventsActivityAutomobile.class));
+//                finish();
+//            }
+//        });
     }
 }

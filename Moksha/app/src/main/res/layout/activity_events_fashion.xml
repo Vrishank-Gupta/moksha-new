@@ -26,7 +26,7 @@
             android:layout_height="100dp"
             android:layout_alignTop="@+id/imageView2"
             android:layout_marginStart="27dp"
-            android:layout_toEndOf="@+id/imageView10"
+            android:layout_toEndOf="@+id/rogue"
             android:src="@drawable/moksha_logo" />
 
         <ImageView
@@ -37,25 +37,13 @@
             android:layout_marginTop="40dp"
             android:layout_alignParentStart="true"
             android:src="@drawable/fashion_image" />
-        <ImageView
-            android:id="@+id/nav_icon"
-            android:layout_width="30dp"
-            android:layout_height="20dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="11dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/nav_drawer_icon" />
 
         <ImageView
             android:id="@+id/home_icon"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_alignParentEnd="true"
-            android:layout_marginRight="10dp"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginEnd="61dp"
             android:src="@drawable/home_icon" />
 
         <ImageView
@@ -79,14 +67,15 @@
             android:id="@+id/back_arrow"
             android:layout_width="70dp"
             android:layout_height="35dp"
+            android:layout_alignStart="@+id/rogue"
             android:layout_alignTop="@+id/imageView3"
-            android:layout_marginTop="19dp"
-            android:layout_toEndOf="@+id/nav_icon"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="21dp"
             android:src="@drawable/back_arrow_bold" />
 
 
         <ImageView
-            android:id="@+id/imageView10"
+            android:id="@+id/rogue"
             android:layout_width="200dp"
             android:layout_height="80dp"
             android:layout_below="@id/imageView3"
@@ -97,10 +86,10 @@
 
 
         <ImageView
-            android:id="@+id/imageView12"
+            android:id="@+id/mr_moksha"
             android:layout_width="200dp"
             android:layout_height="120dp"
-            android:layout_below="@id/imageView10"
+            android:layout_below="@id/rogue"
             android:layout_alignParentStart="true"
             android:layout_marginTop="10dp"
             android:layout_marginStart="10dp"
@@ -108,10 +97,10 @@
 
 
         <ImageView
-            android:id="@+id/imageView14"
+            android:id="@+id/talent"
             android:layout_width="200dp"
             android:layout_height="120dp"
-            android:layout_below="@id/imageView12"
+            android:layout_below="@id/mr_moksha"
             android:layout_alignParentStart="true"
             android:layout_marginTop="10dp"
             android:layout_marginStart="10dp"
