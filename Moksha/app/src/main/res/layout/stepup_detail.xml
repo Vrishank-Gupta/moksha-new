@@ -2,31 +2,18 @@
 <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_blue">
+    android:background="#1e253e">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/nav_icon"
-            android:layout_width="30dp"
-            android:layout_height="20dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="11dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/nav_drawer_icon" />
-
-        <ImageView
             android:id="@+id/home_icon"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_alignParentEnd="true"
-            android:layout_marginRight="10dp"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginEnd="61dp"
             android:src="@drawable/home_icon" />
 
         <ImageView
@@ -53,6 +40,7 @@
                 android:textColor="@color/white"
                 style="@style/Base.TextAppearance.AppCompat.Headline"
                 android:textStyle="bold"
+                android:fontFamily="sans-serif"
                 android:textSize="30sp"
                 />
 
@@ -60,11 +48,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:fontFamily="cursive"
                 android:textColor="@color/subtext_color"
                 android:text="THE STREET DANCE COMPETITION"
                 android:textSize="20sp"
-                style="@style/Base.TextAppearance.AppCompat.Subhead"
-                android:textStyle="bold"
                 />
 
             <TextView
@@ -75,6 +62,7 @@
 Can your crew go toe-to-toe and battle your way to the top? So, If the Street is your stage, then its time to STEP UP!"
                 android:textColor="@color/subtext_color"
                 android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
                 android:textSize="20sp"
 
                 />
@@ -83,17 +71,20 @@ Can your crew go toe-to-toe and battle your way to the top? So, If the Street is
 
             <TextView
                 android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
                 android:layout_height="wrap_content"
                 style="@style/Base.TextAppearance.AppCompat.Headline"
                 android:text="Rules"
                 android:textColor="@color/white"
                 android:layout_marginTop="40dp"
                 android:gravity="center"
+                android:textStyle="bold"
                 />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
                 android:background="@color/sub_background"
                 android:textColor="@color/subtext_color"
                 android:padding="20dp"
@@ -108,6 +99,8 @@ Can your crew go toe-to-toe and battle your way to the top? So, If the Street is
                 android:layout_height="wrap_content"
                 style="@style/Base.TextAppearance.AppCompat.Headline"
                 android:text="Rounds"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
                 android:textColor="@color/white"
                 android:layout_marginTop="40dp"
                 android:gravity="center"
@@ -119,6 +112,7 @@ Can your crew go toe-to-toe and battle your way to the top? So, If the Street is
                 android:background="@color/sub_background"
                 android:textColor="@color/subtext_color"
                 android:padding="20dp"
+                android:fontFamily="sans-serif"
                 android:textSize="20sp"
                 android:layout_marginTop="20dp"
                 android:text="1.Eliminations Round:-\nTeams need to perform a dance sequence without any theme for the same.\nTime limit: 4-7 min (+1 min setup time).\n\n2.Semi final and Final round: (Street Dance Battle Ground):-\n The shortlisted teams will then have a face-off in the battle round.\nTime limit: 6-8 minutes(+1 min setup time)."
@@ -131,6 +125,8 @@ Can your crew go toe-to-toe and battle your way to the top? So, If the Street is
                 style="@style/Base.TextAppearance.AppCompat.Headline"
                 android:layout_marginTop="40dp"
                 android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
                 android:gravity="center"
                 android:text="Contact for Queries:"/>
 
@@ -142,6 +138,7 @@ Can your crew go toe-to-toe and battle your way to the top? So, If the Street is
                 android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:textSize="20sp"
+                android:fontFamily="sans-serif"
                 android:textColor="@color/subtext_color"
                 android:text="Taranng Agrawal - 9871557491\nTushar Kumar - 8800701785"/>
 
@@ -151,9 +148,10 @@ Can your crew go toe-to-toe and battle your way to the top? So, If the Street is
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif"
                 android:padding="10dp"
-                style="@style/Base.TextAppearance.AppCompat.Headline"
                 android:textColor="@color/white"
+                android:textSize="20sp"
                 android:text="Time : 11:00AM\nThe last date for registration is : 11th March,2018\nDate : 28th March 2018"
                 />
             <Button

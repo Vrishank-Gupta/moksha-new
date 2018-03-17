@@ -2,31 +2,18 @@
 <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_blue">
+    android:background="#1e253e">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/nav_icon"
-            android:layout_width="30dp"
-            android:layout_height="20dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="11dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/nav_drawer_icon" />
-
-        <ImageView
             android:id="@+id/home_icon"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_alignParentEnd="true"
-            android:layout_marginRight="10dp"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginEnd="61dp"
             android:src="@drawable/home_icon" />
 
         <ImageView
@@ -49,6 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Symphony"
+                android:fontFamily="sans-serif"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 style="@style/Base.TextAppearance.AppCompat.Headline"
@@ -60,17 +48,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:fontFamily="cursive"
                 android:textColor="@color/subtext_color"
                 android:textSize="20sp"
                 android:text="The Instrumental Duo/Trio Competition"
                 style="@style/Base.TextAppearance.AppCompat.Subhead"
-                android:textStyle="bold"
                 />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:fontFamily="sans-serif"
                 android:text="Music, no matter how beautifully sung, is incomplete without the musical instruments they’re sung to. Dhwani’18 @ Moksha brings to you Symphony - The Instrumental Duo/Trio Competition, to be held on 16th March, 2018 at 3:30pm."
                 android:textColor="@color/subtext_color"
                 android:layout_marginTop="20dp"
@@ -85,6 +74,8 @@
                 android:layout_height="wrap_content"
                 style="@style/Base.TextAppearance.AppCompat.Headline"
                 android:text="Guidelines:"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
                 android:textColor="@color/white"
                 android:layout_marginTop="40dp"
                 android:gravity="center"
@@ -96,6 +87,7 @@
                 android:background="@color/sub_background"
                 android:textColor="@color/subtext_color"
                 android:padding="20dp"
+                android:fontFamily="sans-serif"
                 android:textSize="20sp"
                 android:layout_marginTop="20dp"
                 android:text="1.Only 2 entries per college are allowed.\n\n2.Time limit is 5+2 minutes.\n\n3.Participants are to bring their own instruments.\n\n4.Use of drum kit is prohibited.\n\n5.Maximum team size is 3.\n\n6.Pre-recorded backing tracks are not allowed. Live looping is allowed.\n\n7.There is no limitation on the genre of music to be presented.\n\n8.Judgement will be based on the qualities like dynamics, expression, phrasing, rhythm, technique, tone quality, etc.\n\n9.Judge’s decision will be final and binding.\n\n10.No preliminary round will be held for the event."
@@ -109,11 +101,14 @@
                 android:text="Rules for Preliminary Qualifications:"
                 android:textColor="@color/white"
                 android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
                 android:gravity="center"
                 />
 
             <TextView
                 android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
                 android:layout_height="wrap_content"
                 android:background="@color/sub_background"
                 android:textColor="@color/subtext_color"
@@ -125,6 +120,8 @@
 
             <TextView
                 android:layout_width="match_parent"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
                 android:layout_height="wrap_content"
                 style="@style/Base.TextAppearance.AppCompat.Headline"
                 android:layout_marginTop="40dp"
@@ -139,6 +136,7 @@
                 android:padding="10dp"
                 android:layout_marginTop="20dp"
                 android:gravity="center"
+                android:fontFamily="sans-serif"
                 android:textSize="20sp"
                 android:textColor="@color/subtext_color"
                 android:text="Shubham Chowdhury - 9899576982\nAshanka Saha - 9811556252"/>
@@ -151,8 +149,10 @@
                 android:gravity="center"
                 android:layout_marginTop="40dp"
                 android:padding="10dp"
-                style="@style/Base.TextAppearance.AppCompat.Headline"
                 android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
                 android:text="Time : 3:30PM\nDate : 28th March 2018\nVenue : Main Audi"
                 />
 

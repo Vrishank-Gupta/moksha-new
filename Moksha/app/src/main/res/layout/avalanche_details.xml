@@ -2,31 +2,19 @@
 <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_blue">
+    android:background="#1e253e">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/nav_icon"
-            android:layout_width="30dp"
-            android:layout_height="20dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="11dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/nav_drawer_icon" />
-
-        <ImageView
             android:id="@+id/home_icon"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_alignParentEnd="true"
-            android:layout_marginRight="10dp"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginEnd="61dp"
+            android:layout_marginTop="7dp"
             android:src="@drawable/home_icon" />
 
         <ImageView
@@ -49,6 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="AVALANCHE "
+                android:fontFamily="sans-serif"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 style="@style/Base.TextAppearance.AppCompat.Headline"
@@ -60,17 +49,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:fontFamily="cursive"
                 android:textColor="@color/subtext_color"
                 android:textSize="20sp"
                 android:text="The Battle of Bands"
-                style="@style/Base.TextAppearance.AppCompat.Subhead"
-                android:textStyle="bold"
                 />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:fontFamily="sans-serif"
                 android:text="Let the musician in you go wild as you come witness the ethereal amalgamation of sounds! Moksha’18 presents its most-awaited event, Avalanche - The Battle of Bands.\n\nIf you think that your band has what it takes to make a crowd go wild, come try your luck here! Prizes worth Rs.20,000 to be won!"
                 android:textColor="@color/subtext_color"
                 android:layout_marginTop="20dp"
@@ -83,6 +72,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
                 style="@style/Base.TextAppearance.AppCompat.Headline"
                 android:text="Rules For Preliminary Qualifications:"
                 android:textColor="@color/white"
@@ -96,6 +87,7 @@
                 android:background="@color/sub_background"
                 android:textColor="@color/subtext_color"
                 android:padding="20dp"
+                android:fontFamily="sans-serif"
                 android:textSize="20sp"
                 android:layout_marginTop="20dp"
                 android:text="1.All bands MUST register ALL PARTICIPANTS on the Moksha'18 website BEFORE the event. Any participant who has not registered will NOT be allowed entry in the campus.\n\n2.The songs should have Hindi/English lyrics, however, a refrain in a foreign language is allowed.\n\n3.Team Size: 3-8 members\n\n4.There will be negative marking for exceeding the time limit.\n\n5.Obscenity (at the discretion of the judges) of any kind is not allowed and will lead to immediate disqualification. \n\n6.Purely instrumental pieces are not allowed. At least 1 vocalist is compulsory.\n\n7.In the case of any dispute, the decision of the judges will be final and non-negotiable. \n\n8.Drum kit and sound system will be provided by the organizers. \n\n9.Time slot for each band will be around 20 minutes and 3 minutes for sound check.\n\n10.Song selection: Bands must indicate song selection(s) for performance, if songs are original or covers, lyrics to all original songs must be submitted in writing, band must be completely forthcoming in regard to lyric content that contains profanity, sex, drug, violence, or anything else that would warrant an advisory warning per recording industry standards. \n\n\nFeel free to mail us on battleofbands2k18@gmail.com if you have any further queries!Hope to see you soon!"
@@ -109,7 +101,9 @@
                 style="@style/Base.TextAppearance.AppCompat.Headline"
                 android:layout_marginTop="40dp"
                 android:textColor="@color/white"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
+                android:textStyle="bold"
                 android:text="Contact for Queries:"/>
 
             <TextView
@@ -120,6 +114,7 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:textSize="20sp"
+                android:fontFamily="sans-serif"
                 android:textColor="@color/subtext_color"
                 android:text="Nayan Sayare - 9911042793\nNikhil Dass - 8860017918"/>
 
@@ -131,7 +126,8 @@
                 android:gravity="center"
                 android:layout_marginTop="40dp"
                 android:padding="10dp"
-                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
                 android:textColor="@color/white"
                 android:text="Time : 2:00Pm - 5:00Pm\nDate : 27th March 2018\nVenue : Main Stage"
                 />

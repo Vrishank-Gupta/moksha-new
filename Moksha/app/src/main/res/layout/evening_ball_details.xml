@@ -2,31 +2,18 @@
 <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_blue">
+    android:background="#1e253e">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/nav_icon"
-            android:layout_width="30dp"
-            android:layout_height="20dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="11dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/nav_drawer_icon" />
-
-        <ImageView
             android:id="@+id/home_icon"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_alignParentEnd="true"
-            android:layout_marginRight="10dp"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginEnd="61dp"
             android:src="@drawable/home_icon" />
 
         <ImageView
@@ -50,6 +37,7 @@
                 android:layout_height="wrap_content"
                 android:text="Evening Ball"
                 android:textAllCaps="true"
+                android:fontFamily="sans-serif"
                 android:textColor="@color/white"
                 style="@style/Base.TextAppearance.AppCompat.Headline"
                 android:textStyle="bold"
@@ -60,6 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:fontFamily="sans-serif"
                 android:textColor="@color/subtext_color"
                 android:layout_marginTop="20dp"
                 android:textSize="20sp"
@@ -72,6 +61,8 @@
                 style="@style/Base.TextAppearance.AppCompat.Headline"
                 android:textColor="@color/white"
                 android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
                 android:gravity="center"
                 android:text="Titles To be Won"
                 />
@@ -82,6 +73,7 @@
                 android:background="@color/sub_background"
                 android:textColor="@color/subtext_color"
                 android:padding="20dp"
+                android:fontFamily="sans-serif"
                 android:textSize="20sp"
                 android:layout_marginTop="20dp"
                 android:text="Most compatible couple.\nBest dressed couple.\nProm king and queen."
@@ -95,6 +87,8 @@
                 android:layout_height="wrap_content"
                 style="@style/Base.TextAppearance.AppCompat.Headline"
                 android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
                 android:layout_marginTop="40dp"
                 android:gravity="center"
                 android:text="Rules For Preliminary Qualification"
@@ -107,6 +101,7 @@
                 android:textColor="@color/subtext_color"
                 android:padding="20dp"
                 android:textSize="20sp"
+                android:fontFamily="sans-serif"
                 android:layout_marginTop="20dp"
                 android:text="1.Couple entry only.\n\n2.Both the partners have to regsiter with moksha ID regardless of being a NSITian or not. On the spot registration will be provided.\n\n3.Masks and accessories are optional."
                 />
@@ -116,6 +111,8 @@
                 android:layout_height="wrap_content"
                 style="@style/Base.TextAppearance.AppCompat.Headline"
                 android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
                 android:textColor="@color/white"
                 android:gravity="center"
                 android:text="Contact for Queries:"/>
@@ -125,6 +122,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/sub_background"
                 android:padding="10dp"
+                android:fontFamily="sans-serif"
                 android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:textSize="20sp"
@@ -139,7 +137,8 @@
                 android:gravity="center"
                 android:layout_marginTop="40dp"
                 android:padding="10dp"
-                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
                 android:textColor="@color/white"
                 android:text="Time : 5:30Pm\nDate : 27th March 2018\nVenue : Admin Block"
                 />
